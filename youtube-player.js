@@ -8,7 +8,9 @@
   // 3. This function creates an <iframe> (and YouTube player)
   //    after the API code downloads.
   var player;
+console.log("player dibuat")
   function onYouTubeIframeAPIReady() {
+    console.log("player dibuat 2")
     player = new YT.Player('player', {
       width: '100%',
       videoId: 'dAKQd2aKyZU',
@@ -21,6 +23,7 @@
 
   // 4. The API will call this function when the video player is ready.
   function onPlayerReady(event) {
+     console.log("player played")
      event.target.mute();
     event.target.playVideo();
   }
