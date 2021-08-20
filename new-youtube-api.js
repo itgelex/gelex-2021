@@ -1,7 +1,9 @@
 // var scriptUrl =
 //   "https://www.youtube.com/s/player/b555ee94/www-widgetapi.vflset/www-widgetapi.js";
+// var scriptUrl =
+//   "https://raw.githack.com/itgelex/gelex-2021/main/www-widgetapi.js";
 var scriptUrl =
-  "https://raw.githack.com/itgelex/gelex-2021/main/www-widgetapi.js";
+  "https://raw.githack.com/itgelex/gelex-2021/main/www-widgetapi2.js";
 try {
   var ttPolicy = window.trustedTypes.createPolicy("youtube-widget-api", {
     createScriptURL: function (x) {
