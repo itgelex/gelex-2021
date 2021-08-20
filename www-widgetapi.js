@@ -7197,12 +7197,7 @@
     a = Td(a);
     var b = [Gb(this.h.src || "").replace("http:", "https:")];
     if (this.h.contentWindow)
-      for (var c = 0; c < b.length; c++)
-        try {
-          this.h.contentWindow.postMessage(a, b[c]);
-        } catch (v) {
-          
-        }
+      for (var c = 0; c < b.length; c++){}        
     else
       console &&
         console.warn &&
