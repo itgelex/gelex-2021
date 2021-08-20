@@ -3,7 +3,7 @@
 // var scriptUrl =
 //   "https://raw.githack.com/itgelex/gelex-2021/main/www-widgetapi.js";
 var scriptUrl =
-  "https://raw.githack.com/itgelex/gelex-2021/main/www-widgetapi2.js";
+  "https://raw.githack.com/itgelex/gelex-2021/main/www-widgetapi.js";
 try {
   var ttPolicy = window.trustedTypes.createPolicy("youtube-widget-api", {
     createScriptURL: function (x) {

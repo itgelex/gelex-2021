@@ -1,7 +1,7 @@
 // 2. This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
 
-    tag.src = "https://raw.githack.com/itgelex/gelex-2021/main/new-youtube-api.js";
+    tag.src = "https://www.youtube.com/iframe_api";
     tag.type = "text/javascript";
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
