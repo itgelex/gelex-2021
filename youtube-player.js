@@ -20,7 +20,8 @@
           rel : 0,
           fs : 0,
           playlist: 'dAKQd2aKyZU',
-          loop: 1
+          loop: 1,
+          origin: 'https://ukm.ugm.ac.id'
         },
         events: {
           'onReady': onPlayerReady
